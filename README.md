@@ -3,6 +3,9 @@
 <h2 align="center"> TLILI Maxime - SISTEEDHUR Lakshitaa </h2>
 <h3 align="center"> INSA Toulouse - département Génie Physique - 2024 </h3>
 
+![Shield2](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/3b883434-9bf2-4699-a6b0-e92848faf7fb)
+
+
 
 ## Introduction au projet
 
@@ -51,7 +54,7 @@ Pour notre projet, nous avons opté pour ajouter un écran OLED servant de menu,
 
 &nbsp;&nbsp;&nbsp;&nbsp;Sur le logiciel LTSpice, nous avons réalisé une simulation électrique du circuit par application du schéma suivant :
 
- /Photo/
+![Circuit LTSpice](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/72815b30-4935-402f-a908-8267fd9944b3)
 
 La résistance variable de notre capteur étant de l'ordre du GigaOhm, le courant généré est très faible (de l'ordre de quelques nA). Afin de délivrer une tension suffisante au niveau du convertisseur analogique-numérique d'une carte Arduino UNO, il est nécessaire d'amplifier le signal en amont de la mesure. On réalise donc un amplificateur opérationnel transimpédance. Nous avons choisi le circuit amplificateur LTC 1050 au vu de ses paramètres de tension d'offset faible. Celle-ci ne doit pas fausser les valeurs de tensions que reçoit l'Arduino. Il est aussi nécessaire de réaliser un traitement du bruit lié à l'environnement de la mesure. C'est le rôle des différents filtres qui atténuent les bruits du réseau électrique et des horloges des composants.
 
@@ -77,23 +80,68 @@ Afin de s'assurer de la validité du PCB, nous avons été contraint à l'utilis
 Nous avons listé ci-dessous les symbôles et empreintes des composants, ainsi que le schématique et son PCB final
 
 ### b. Symbôles et empreintes
-- Capteur graphite 
-- Flexsensor
+
+- amplificateur transimpédance
+
+<img width="725" alt="Amplificateur transimpédance Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/f7d4f774-d1d9-4564-8336-052f677aaf81">
+
+- Capteur graphite
+
+<img width="200" alt="Capteur Graphite Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/cbb62b4e-f330-4168-bd7c-5a76ede47328">
+<img width="300" alt="Capteur Graphite footprint" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/8eea6ca6-3443-42be-b696-0f6972295d96">
+
 - Amplificateur LTC1050
+
+<img width="244" alt="LTC 1050 Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/d6c14044-a05b-4a3f-9cc0-f3d23c4517ff">
+<img width="307" alt="LTC 1050 footprint" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/0ba751cc-f90e-44a8-82f5-1862c255b713">
+
+- Flexsensor
+
+<img width="206" alt="Flexsensor Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/79fee225-752f-4528-834f-6cb9a5089cbd">
+<img width="95" alt="Flexsensor footprint" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/28ef03c5-0100-4a5d-a988-2855d52418dd">
+
 - Module bluetooth HC-05
+
+<img width="265" alt="Bluetooth HC-05 Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/6585eabf-a721-4d61-b4d2-874c487238cc">
+<img width="407" alt="Bluetooth HC-05 footprint" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/5b31df3c-196d-45ff-ad24-d554ee008f47">
+
 - Potentiomètre digital MPC41050
+
+<img width="337" alt="MPC41050 Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/47f35640-5838-44ca-872b-f00afaa73429">
+<img width="286" alt="MCP41050 footprint" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/626fd323-5b0a-420a-8397-585692d39b40">
+
 - Encodeur rotatoire KY-040
+<img width="260" alt="KY-040 Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/1b3d5876-5aa9-4fbc-bd7b-8f11b2a7ffdb">
+<img width="458" alt="KY-040 footprint" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/c84aa96a-26ac-4f96-80fc-007bb2f875a1">
+
 - Ecran OLED
+<img width="233" alt="OLED Screen Symbol" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/d9514485-3465-423c-8292-08957c128541">
+<img width="194" alt="OLED Screen footprint" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/2a8beca9-7d73-4c3b-b4a2-2b7009c63491">
 
 ### c. Schématique et PCB final
 - Schéma complet
+
+    <img width="564" alt="Schematics" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/deafd78a-4320-425b-bd57-98c48dd6a36f">
+
 - PCB
+
+    <img width="352" alt="PCB2" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/42b379e2-6010-4f00-8085-ad19b7d0f4e1">
+    <img width="353" alt="PCB1" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/4e16fac2-0dff-4b41-843b-5481c81e709a">
+
+- Modèle 3D
+
+<img width="583" alt="Top view" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/85aa3b43-392b-4d39-aebb-ee1a0b34bc54">
+<img width="484" alt="Angle view" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/391d6e67-1731-49b1-a825-bc81c995102b">
+
 
 ## 3. Réalisation du Shield
 
 &nbsp;&nbsp;&nbsp;&nbsp;Une fois le schéma PCB réalisé, nous avons sorti le circuit sur un calque à l'échelle 1:1. Il a joué le rôle de masque dans la gravure chimique sur une plaquette d'époxy recouverte d'une couche de cuivre d'une épaisseur d'environ 60um. La plaquette a été couverte d'une résine positive, puis elle a été insolé aux UVs. Nous avons plongé la plaquette dans un révélateur et dans du perchlorure de fer pour s'affranchir de la partie de la résine non isolée et du cuivre non protégé. Cette opération s'est déroulée au sein du bâtiment du département du Génie Electrique et Informatique de l'INSA Toulouse.
 
 &nbsp;&nbsp;&nbsp;&nbsp;L'étape suivante a été le perçage mécanique des trous sur la plaquette, et la soudure des différents composants. Nous avons utilisés deux forets mécaniques : un de diamètre 1mm pour les broches de connexion avec la carte Arduino, et un de diamètre 0.8mm pour tout autre trou. Pour ce qui est de nos deux vias, nous avons soudé des fils sur la partie non visible du PCB.
+
+![Shield1](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/f1b9de01-721b-4c23-8c9d-96a2ccf74746)
+
 
 ## 4. Code Arduino
 
