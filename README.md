@@ -20,7 +20,8 @@ Les livrables du projet sont :
     - [] Le code Arduino permettant de faire la mesure de la résistance du capteur graphite
     - [] L'application Android pour un pilotage bluetooth du système
     - [] Le banc de test du capteur
-    - [] La datasheet du capteur
+    - [ La datasheet du capteur
+    
 Pour notre projet, nous avons opté pour ajouter un écran OLED servant de menu, du flex sensor commercial pour avoir un comparatif avec notre capteur, ainsi que d'un encodeur rotatoire pour différentes fonctionnalités.
 
 ## Sommaire
@@ -144,12 +145,30 @@ Nous avons listé ci-dessous les symbôles et empreintes des composants, ainsi q
 
 
 ## 4. Code Arduino
+En progression...
 
 ## 5. Application Android
+En développement...
+
+&nbsp;&nbsp;&nbsp;&nbsp;Nous avons réalisé une application android nommée FlexiGraphite.apk. Elle permet d'interagir par bluetooth avec le capteur graphite et de relever notamment la valeur de la résistance du capteur graphite.
+
+Logo :
+![FlexiGraphite](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/7c38440b-949a-4dc4-8029-9af95b14c321)
+
+Menu de l'application :
+![Menu FlexiGraphite](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/c6960297-d50b-4254-94ba-b93e48a60743)
+
+On retrouve 3 parties sur le menu : 
+- La connexion bluetooth au dessus, avec la possibilité de voir l'état de la connexion et de se déconnecter de tout appareil.
+- L'onglet "Mesure" servant à y afficher les mesures de la résistance graphite.
+- L'onglet "Calibration" qui permet de piloter le lancement de la calibration du gain transimpédance.
+
 
 ## 6. Banc de test
+à venir...
 
 ## Datasheet
+à venir...
 
 ## **Contact:**
 - Maxime Tlili : tlili@insa-toulouse.fr
