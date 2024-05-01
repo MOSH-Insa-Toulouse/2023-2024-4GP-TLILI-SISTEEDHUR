@@ -9,7 +9,7 @@
 
 ## Introduction au projet
 
-&nbsp;&nbsp;&nbsp;&nbsp;Ce projet se construit dans le cadre de l'UF "Du capteur au banc de test" de la 4ème année du parcours Génie Physique à l'Institut National des Sciences Appliquées (INSA) de Toulouse. Il permet une approche novatrice et lowtech dans la mesure de contrainte en se basant sur les propriétés du graphite. Il fait référence à l'article "[Pencil Drawn Strain Gauges and Chemiresistors on Paper](https://www.nature.com/articles/srep03812)" de Cheng-Wei Lin, Zhibo Zhao, Jaemyung Kim et Jiaxing Huang.
+&nbsp;&nbsp;&nbsp;&nbsp;Ce projet se construit dans le cadre de l'UF "Du capteur au banc de test" de la 4ème année du parcours Génie Physique à l'Institut National des Sciences Appliquées (INSA) de Toulouse. Il permet une approche novatrice et lowtech dans la mesure de contrainte en se basant sur les propriétés du graphite. Il s’appuie sur l’étude de capteurs de contrainte en graphite (système granulaire) dont la résistance varie suivant la déformation du capteur (Pencil Drawn Strain Gauges and Chemiresistors on Paper Cheng-Wei Lin*, Zhibo Zhao*, Jaemyung Kim & Jiaxing Huang Department of Materials Science and Engineering, Northwestern University 2220 Campus Drive, Evanston, IL, 60208, USA).
 
 &nbsp;&nbsp;&nbsp;&nbsp;Au cours de ce projet, nous avons réalisé un dispositif permettant de relever des mesures de contrainte à partir d'une feuille en papier sur laquelle était déposée du graphène. Par déformation du papier, il y a variation du nombre de particules de graphite déposé sur le papier, et ainsi la résistance est modifiée. Il est donc possible de réaliser un capteur de déformation low-tech, que nous appellerons par la suite "capteur graphite".
 
