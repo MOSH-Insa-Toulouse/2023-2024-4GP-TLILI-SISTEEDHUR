@@ -69,7 +69,7 @@ Cette simulation nous permet de savoir que l'Arduino UNO est capable de mesurer 
 - Un module bluetooth HC-05 a été ajouté pour rendre possible une communication avec une application mobile
 - Un écran OLED permet de faire l'interface homme-machine en affichant les informations
 - Un flexsensor a été ajouté en tant que capteur témoin
-- Un encodeur rotatoire ajoute des fonctionalités pour interagir avec les autres composants
+- Un encodeur rotatoire ajoute des fonctionalités pour interagir avec les autres composants. ça permet de naviguer dans les menus de l'écran OLED et de lancer la mesure
 
 A partir d'un template d'une carte Arduino UNO, il a fallu :
 - Concevoir le schématique du circuit en important et en créant les symbôles pour chaque composant
@@ -165,10 +165,15 @@ On retrouve 3 parties sur le menu :
 
 
 ## 6. Banc de test
-à venir...
+à venir... on travaille dessus 
 
 ## Datasheet
 à venir...
+Quelques précisions:
+il faut avoir complété le banc de test pour avoir une valeur de résistivité. pareil pour humidité, il faut tester le capteur
+100Mohms est la résistance fixe du capteur. 
+il faut éviter d'aller au delà de 100 degrés
+
 
 ## **Contact:**
 - Maxime Tlili : tlili@insa-toulouse.fr
