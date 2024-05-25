@@ -150,9 +150,9 @@ Nous avons listé ci-dessous les symbôles et empreintes des composants, ainsi q
 
 &nbsp;&nbsp;&nbsp;&nbsp;Nous avons fournis trois fichiers de code :
 
-- Capteur2024V1.0.1 : c'est la version qui fournit trois menus sur l'écran OLED permettant de choisir entre le mode Mesureflex, le mode MesureCG, et le mode calibration. Ce programme ne permet pas de faire de mesures. Dès lors que nous demandons de lire une mesure, l'écran OLED ne s'initialise plus et le programme plante
-- Capteur2024V2 : C'est la version qui marche. Elle décrit le protocole présenté au dessus.
-- Test Components : c'est un programme permettant de tester l'écran OLED.
+- [Capteur2024V1.0.1](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/tree/main/Arduino/Capteur2024V1.0.1) : c'est la version qui fournit trois menus sur l'écran OLED permettant de choisir entre le mode Mesureflex, le mode MesureCG, et le mode calibration. Ce programme ne permet pas de faire de mesures. Dès lors que nous demandons de lire une mesure, l'écran OLED ne s'initialise plus et le programme plante
+- [Capteur2024V2](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/tree/main/Arduino/Capteur2024V2.0/Capteur2024_V2.0) : C'est la version qui marche. Elle décrit le protocole présenté au dessus.
+- [Test Components](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/tree/main/Arduino/Test%20Components/Test_OLED) : c'est un programme permettant de tester l'écran OLED.
 
 ![Affichage_ecran_OLED](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/64b1982c-205a-4675-a157-9cda475d73cd)
 
@@ -193,7 +193,7 @@ Pour les crayons B et HB, on calcule la déformation en fonction du rayon du ban
 
 
 ## Datasheet
-Le datasheet de notre capteur se trouve ici. 
+Le datasheet de notre capteur se trouve [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/blob/main/Datasheet/Datasheet%20Graphite%20Flex%20Sensor.pdf). 
 
 
 ## **Contact:**
