@@ -145,10 +145,16 @@ Nous avons listé ci-dessous les symbôles et empreintes des composants, ainsi q
 
 
 ## 4. Code Arduino
-En progression...
+
+&nbsp;&nbsp;&nbsp;&nbsp;Pour faire la mesure de la résistance, nous avons créé un programme Arduino. Lorsqu'on maintient appuyé le bouton de l'encodeur rotatoire, la mesure de résistance se fait à un intervalle d'environ une seconde. La valeur nous est transmise par le biais de l'écran OLED.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Nous avons fournis trois fichiers de code :
+
+- Capteur2024V1.0.1 : c'est la version qui fournit trois menus sur l'écran OLED permettant de choisir entre le mode Mesureflex, le mode MesureCG, et le mode calibration. Ce programme ne permet pas de faire de mesures. Dès lors que nous demandons de lire une mesure, l'écran OLED ne s'initialise plus et le programme plante
+- Capteur2024V2 : C'est la version qui marche. Elle décrit le protocole présenté au dessus.
+- Test Components : c'est un ensemble de programmes permettant d'isoler et de tester chaque composant du PCB pour s'assurer de leur bon fonctionnement.
 
 ## 5. Application Android
-En développement...
 
 &nbsp;&nbsp;&nbsp;&nbsp;Nous avons réalisé une application android nommée FlexiGraphite.apk. Elle permet d'interagir par bluetooth avec le capteur graphite et de relever notamment la valeur de la résistance du capteur graphite.
 
@@ -165,7 +171,14 @@ On retrouve 3 parties sur le menu :
 
 
 ## 6. Banc de test
-(image à ajouter) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Afin de tester notre capteur, nous avons réalisé un banc de test. Le support est un ensemble de demi-cercles dont le rayon varie. 
+
+IMG
+
+Pour les crayons B et HB, on calcule la déformation en fonction du rayon du banc de test et on fait la mesure de résistance. On reporte les valeurs dans un graphe pour tracer l'évolution de la variation de résistance en fonction de la déformation.
+
+IMG
 
 ## Datasheet
 Le datasheet de notre capteur se trouve ici. 
