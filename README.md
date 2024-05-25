@@ -152,7 +152,10 @@ Nous avons listé ci-dessous les symbôles et empreintes des composants, ainsi q
 
 - Capteur2024V1.0.1 : c'est la version qui fournit trois menus sur l'écran OLED permettant de choisir entre le mode Mesureflex, le mode MesureCG, et le mode calibration. Ce programme ne permet pas de faire de mesures. Dès lors que nous demandons de lire une mesure, l'écran OLED ne s'initialise plus et le programme plante
 - Capteur2024V2 : C'est la version qui marche. Elle décrit le protocole présenté au dessus.
-- Test Components : c'est un ensemble de programmes permettant d'isoler et de tester chaque composant du PCB pour s'assurer de leur bon fonctionnement.
+- Test Components : c'est un programme permettant de tester l'écran OLED.
+
+![Affichage_ecran_OLED](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/64b1982c-205a-4675-a157-9cda475d73cd)
+
 
 ## 5. Application Android
 
@@ -174,11 +177,20 @@ On retrouve 3 parties sur le menu :
 
 &nbsp;&nbsp;&nbsp;&nbsp;Afin de tester notre capteur, nous avons réalisé un banc de test. Le support est un ensemble de demi-cercles dont le rayon varie. 
 
-IMG
+<img width="346" alt="BancDeTest" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/98a916a7-1da0-43fb-a2a3-288d378f2cd6">
+<img width="118" alt="Formule" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/97fae09c-94eb-4481-885f-2dab62c62ed3">
+
+
 
 Pour les crayons B et HB, on calcule la déformation en fonction du rayon du banc de test et on fait la mesure de résistance. On reporte les valeurs dans un graphe pour tracer l'évolution de la variation de résistance en fonction de la déformation.
 
 IMG
+<img width="421" alt="deformation en compression" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/f036d267-9802-4e99-b8b8-a010185172af">
+
+<img width="436" alt="Déformation en tension" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/7b301c41-d938-4d1c-88d3-4bc00529ca94">
+
+<img width="442" alt="Deformation flexsensor" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/5587d8d2-0f29-4868-9ae9-66988d0cb13a">
+
 
 ## Datasheet
 Le datasheet de notre capteur se trouve ici. 
