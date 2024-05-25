@@ -184,7 +184,7 @@ On retrouve 3 parties sur le menu :
 
 Pour les crayons B et HB, on calcule la déformation en fonction du rayon du banc de test et on fait la mesure de résistance. On reporte les valeurs dans un graphe pour tracer l'évolution de la variation de résistance en fonction de la déformation.
 
-IMG
+
 <img width="421" alt="deformation en compression" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/f036d267-9802-4e99-b8b8-a010185172af">
 
 <img width="436" alt="Déformation en tension" src="https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-TLILI-SISTEEDHUR/assets/160028091/7b301c41-d938-4d1c-88d3-4bc00529ca94">
